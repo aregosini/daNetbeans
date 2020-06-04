@@ -2,6 +2,8 @@ package sistemi;
 
 import java.net.*;
 
+// Ciao Alberto!
+
 public class EchoServer extends Thread {
     public final static int PORT = 4445;
     private DatagramSocket socket;
