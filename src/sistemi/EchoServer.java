@@ -8,6 +8,7 @@ public class EchoServer extends Thread {
  
     public EchoServer() throws Exception {
         socket = new DatagramSocket(PORT);
+        // modifica
     }
  
     public void run() {
